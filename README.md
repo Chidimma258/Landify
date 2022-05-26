@@ -1,4 +1,4 @@
-# Landify
+# Landify Project Documentation
 
 ## Steps To Run This Project
 
