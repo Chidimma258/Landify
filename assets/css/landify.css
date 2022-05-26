@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.circle{
+    height: 22rem;
+    width: 22rem;
+    padding: 6rem;
+    border-radius: 10rem;
+    background-color: rgb(58, 10, 104);
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.mb-0{
+    margin-bottom: 0!important;
+}
+.sectionA.row{
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+}
+
+.cd-container-1{
+    display: flex;
+    justify-content: right;
+}
+
+nav{
+    background: white;
+}
+
+.nav-link{
+    color: black!important;
+}
+.quote-img{
+    opacity: 0.4;
+    width: 180px;
+    height: 180px;
+    z-index: 0;
+}
+.quote-txt{
+    z-index: 1;
+}
+
+.sectionA{ 
+    /* padding: 100px 0; */
+    transform: skewY(0deg, -10deg) translateY(-120px);
+    background: #c6eff1;
+}
+.container{
+    /* padding: 120px 10px; */
+    margin: 0 auto;
+   transform: skewY(0deg, 10deg);
+} 
+
+.vector1{
+    position: absolute;
+    width: 320px;
+    height: 60.52px;
+    left: -120px;
+    top:530px;
+    background: #e5e2e7;
+    transform: rotate(-5deg);
+    /* opacity: 0.4; */
+}
+
+.vector2{
+    position: absolute;
+    width: 420px;
+    height: 50.52px;
+    left: -120px;
+    top: 474px;    
+    background: #75E3EA;
+    transform: rotate(-5deg);
+}
+
+.vector3{
+width: 425px;
+height: 50.52px;
+background: #e5e2e7;
+position: absolute;
+bottom: 0;
+right:0 ;
+top: 408px;
+transform: rotate(-5deg);
+margin-right: 1rem;
+}
+
+.vector4{
+height: 3rem;
+width:612px;
+background: #D6B1FF;;
+position: absolute;
+bottom: 0;
+right: 0;
+top: 466px;
+margin-right: 2px;
+margin-bottom: 8rem;
+transform: rotate(-5deg);
+}
+
+.vector5{
+height: 3rem;
+width: 290px;
+background: #75E3EA;
+position: absolute;
+right: 0;
+bottom: 0;
+top: 500.49px;
+margin-bottom: 10rem;
+transform: rotate(-5deg);
+margin-right: 2px;
+}
+
+h1{
+    margin-bottom: 9rem;
+}
+
+.sectionB{
+    height: 50%;
+    background: #D5FAFC;
+}
+
+.sectionC{
+    height: 23%;
+    background: #75E3EA;
+}
+    
+.blue{
+    height: 2rem;
+    width: 15px;
+    position: absolute;
+    left: 37.5%;
+    right: 60.33%;
+    top: -2rem;
+    bottom: 0%;
+    border-top-right-radius: 2px;
+    background: #75E3EA;
+    align-self:center;
+}
+
+.btnA{
+    border: unset;
+    background: #4d1b83;
+    
+}
+ 
+.sec{
+    background: #75E3EA;
+    height: 80%;
+    width: 100%;
+}
+
+ul li{
+   list-style: none;
+   display: inline-block;
+   margin: 0 20px;
+   justify-content: start;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    background: #000109;
+    height: 10%;
+    position: sticky;
+}
+
+.navbar-toggler{
+    box-shadow: unset!important;
+}
