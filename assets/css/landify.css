@@ -23,7 +23,7 @@ body{
 .mb-0{
     margin-bottom: 0!important;
 }
-.sectionA.row{
+.sectionS.row{
     padding-bottom: 2rem;
     padding-top: 3rem;
 }
@@ -179,3 +179,63 @@ ul li a{
 .navbar-toggler{
     box-shadow: unset!important;
 }
+
+.ads-card{
+    width: 60%!important;
+}
+
+.ads-card.px50{
+    width: 50%!important;
+}
+
+.footer{
+    padding-bottom: 2rem;
+}
+
+@media(max-width: 678px){
+    .sectionS.row{
+        overflow-x: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .ads-card{
+        width: 100%!important;
+    }
+    .ads-card.px50{
+        width: 100%!important;
+    }
+
+    .store-icons{
+        display: flex!important;
+        justify-content: space-around;
+    }
+    .mobile-screen-2{
+        display: none;
+    }
+    .stores-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .stores-container .img2{
+        height: 40px;
+    }
+    .stores-container .img1{
+        padding-top: 0rem!important;
+    }
+    .themed-container{
+        display: flex;
+        justify-content: center;
+    }
+    .mmm-auto{
+        margin: auto;
+    }
+    .sectionS .col-md-6{
+        padding-right: 0rem!important;
+    }
+    .ads-card-container-2{
+        margin: 1rem!important;
+    }
+}
+    
